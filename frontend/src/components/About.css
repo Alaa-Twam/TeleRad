@@ -1,0 +1,157 @@
+/* About.css */
+
+.about-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  background-color: #f2f2f2;
+  flex-direction: column; /* Stack content vertically */
+  position: relative; /* Allows absolute positioning of child elements */
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    flex-direction: row; /* Default layout on larger screens */
+  }
+}
+
+.about-image {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Full height to cover the image */
+}
+
+.image {
+  width: 100%;
+  height: 100%; /* Adjusted to cover the entire container */
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 768px) {
+  .image {
+    height: 90%; /* Adjust for larger screens */
+    transform: translateY(20%);
+  }
+}
+
+/* Overlay styling with mix-blend-mode */
+.image-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Adjusted to cover the entire image */
+  background-color: #05CC98; /* Adjust color as needed */
+  mix-blend-mode: multiply; /* Apply the multiply blend mode */
+  z-index: 1; /* Ensure the overlay is on top of the image */
+}
+
+@media (min-width: 768px) {
+  .image-container::before {
+    height: 90%; /* Adjust for larger screens */
+    transform: translateY(20%);
+  }
+}
+
+.about-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .about-content {
+    margin-left: 80px;
+  }
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .about-title {
+    font-size: 5rem; /* Larger font size on larger screens */
+  }
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .about-paragraph {
+    font-size: 1.25rem; /* Larger font size on larger screens */
+    margin-bottom: 40px;
+    margin-right: 40px;
+  }
+}
+
+.get-to-know-us {
+  position: absolute;
+  bottom: 0;
+  width: calc(80% - 400px);
+  transform: translateX(60%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+@media (max-width: 1000px) {
+  .get-to-know-us {
+    width: calc(90% - 200px);
+    transform: translateX(40%);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .get-to-know-us {
+    width: calc(90% + 40px);
+    transform: translateX(-12%);
+  }
+
+  .rtl .get-to-know-us {
+    transform: translateX(12%);
+  }
+}
+
+@media (width: 768px) {
+  .get-to-know-us {
+    width: calc(90% - 100px);
+    transform: translateX(20%);
+  }
+}
+
+.get-to-know-us:before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  border: 1px solid black;
+  pointer-events: none; /* Ensures the pseudo-element doesn't interfere with the button's functionality */
+}
+
+.plus-sign {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}

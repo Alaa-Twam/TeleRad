@@ -1,0 +1,246 @@
+{
+    "navbar": {
+      "about": "Overview",
+      "services": "Our Services",
+      "consult": "Consultation",
+      "contact": "Contact"
+    },
+    "slides": {
+      "0": {
+        "title": "TeleRad",
+        "subtitle": "Your Partner in Remote Medical Radiology"
+      },
+      "1": {
+        "title": "TeleRad",
+        "subtitle": "Optimal Solutions for Remote Medical Radiology"
+      },
+      "2": {
+        "title": "TeleRad",
+        "subtitle": "The Best Experts in the Region"
+      }
+    },
+    "button": "Consult Now",
+    "about": {
+      "title": "About Us",
+      "paragraph": "Welcome to TeleRad, the leading Palestinian company in the field of remote radiology. At TeleRad, we strive to revolutionize radiology services in Palestine and the surrounding region by leveraging advanced technology to enhance the Palestinian medical environment, including patients, doctors, and medical centers. Our medical and technical team of experts and specialists provides remote radiology services quickly, accurately, and reliably.",
+      "button": "Who We Are"
+    },
+    "services": {
+      "title": "Our Services",
+      "exploreMore": "Explore More",
+      "howItWorks": "How It Works",
+      "teleradiology": {
+        "title": "Remote Radiology Reports",
+        "description": "Accurate, professional, and reliable interpretation of medical images in a timely manner."
+      },
+      "consultation": {
+        "title": "Consultation Services",
+        "description": "Facilitating access to specialized and professional medical consultations from inside and outside Palestine, especially for difficult and sensitive cases."
+      },
+      "secondOpinion": {
+        "title": "Second Opinion",
+        "description": "The second opinion service that enhances the confidence of the service seeker in the medical diagnosis and treatment plan."
+      }
+    },
+    "consult": {
+      "title": "Connect with <br /> Our Experts",
+      "subtitle": "Complete the following steps by filling in your information so our team can assist you.",
+      "steps": {
+        "step1": {
+          "brief": "Select User Type",
+          "number": "1"
+        },
+        "step2_individual": {
+          "brief": "Please Enter Your Information",
+          "number": "2"
+        },
+        "step3_individual": {
+          "brief": "Choose a Radiology Service",
+          "number": "3"
+        },
+        "step4_individual": {
+          "brief": "Upload the File or Link",
+          "number": "4"
+        },
+        "step5_individual": {
+          "brief": "Please Complete the Payment Process",
+          "number": "5"
+        },
+        "step6_individual": {
+          "brief": "Confirm Payment Details",
+          "number": "6"
+        },
+        "step2_medical_centre": {
+          "brief": "Select Client Type",
+          "number": "2"
+        },
+        "step3_medical_centre_new": {
+          "brief": "Please Enter Medical Center Information",
+          "number": "3"
+        },
+        "step3_medical_centre_existing": {
+          "brief": "Please Enter Your Reference Code",
+          "number": "3"
+        },
+        "step4_medical_centre_new": {
+          "brief": "Choose a Plan",
+          "number": "4"
+        },
+        "step4_medical_centre_existing": {
+          "brief": "Choose a Radiology Service",
+          "number": "4"
+        },
+        "step5_medical_centre_new": {
+          "brief": "Complete Payment",
+          "number": "5"
+        },
+        "step6_medical_centre_existing": {
+          "brief": "Upload the File or Link",
+          "number": "6"
+        },
+        "step7_medical_centre_existing": {
+          "brief": "Confirm",
+          "number": "7"
+        }
+      },
+      "option": {
+        "individual": {
+          "title": "Individuals",
+          "fullname": "Full Name",
+          "dob": "Date of Birth",
+          "mobile": "Mobile Number",
+          "email": "Email Address",
+          "gender": "Gender",
+          "male": "Male",
+          "female": "Female",
+          "individual-service": "Choose the type of radiology service you want:",
+          "CT1": "CT Scan of One Area",
+          "CT2": "CT Scan of Whole Body",
+          "MRI": "MRI of One Area",
+          "Xray": "Regular X-ray",
+          "mammogram": "Mammogram",
+          "PET": "Nuclear Scan",
+          "upload": "Upload your file or copy and paste the link",
+          "link": "Or provide a link",
+          "uploaded": "Uploaded file: ",
+          "provided": "Provided link: ",
+          "plantitle": "Dear Client,",
+          "plantitlep1": "You have chosen ",
+          "planservice": "Type of Service",
+          "plantitlep2": "This plan includes reviewing the files you uploaded in the previous step.",
+          "amount": "Total Amount including Tax: ",
+          "proceed": "Proceed",
+          "card": "Debit/Credit Card",
+          "cardnumber": "Card Number",
+          "carddate": "Card Expiry Date",
+          "pay": "Finalize and Pay",
+          "fileLink": "File Link"
+        },
+        "MedicalCentre": {
+          "title": "Medical Center",
+          "newCustomer": "New Customer",
+          "existingCustomer": "Existing Customer",
+          "name": "Medical Center Name",
+          "contactPerson": "Contact Person",
+          "mobile": "Mobile Number",
+          "email": "Email Address",
+          "RefCode": "Enter the reference code we sent you via email:",
+          "Code": "Reference Code",
+          "planA": "Basic",
+          "planB": "Advanced",
+          "planC": "Exceptional",
+          "select": "Choose a Radiology Service",
+          "confirm": "Confirm",
+          "confirmp1": "Your request has been successfully submitted. Thank you!",
+          "confirmp2": "Redirecting to the reference code in "
+        }
+      },
+      "Back": "Back",
+      "Next": "Next"
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "paragraph": "The TeleRad team consists of a group of professional radiologists, IT specialists, legal advisors, and technical support staff, in a stimulating, positive, and flexible work environment. The team operates efficiently, with commitment and professionalism, to deliver services of the highest quality in the shortest time."
+    },
+    "teamMembers": [
+      {
+        "name": "Dr. Ahmad Awda",
+        "title": "Medical Partner",
+        "brief": "Dr. Ahmad Awda is a specialist in diagnostic and interventional radiology with over ten years of experience. He graduated from Cairo University in Egypt and specialized at Rambam Hospital in Haifa. He has worked in several prestigious hospitals and medical centers and brings a wealth of knowledge and experience to TeleRad. He hopes that TeleRad will contribute to a technological revolution in radiology services in Palestine and the medical sector in general, providing high-quality medical diagnostics for everyone."
+      },
+      {
+        "name": "Mr. Ali Hamdallah",
+        "title": "Executive Partner",
+        "brief": "Ali Hamdallah is an expert in business development and project management with over 12 years of experience, holding a master’s degree in economics from Birzeit University. As the executive partner at TeleRad, Ali is responsible for the strategic direction and general management of the company, leveraging his operational expertise to ensure efficiency, quality, precision, and exceptional customer service. Ali hopes that TeleRad will offer an advanced, flexible, and inspiring business model."
+      }
+    ],
+    "contact": {
+      "title": "Contact Us",
+      "description": "We are here to answer any questions you may have about our remote radiology services. Contact us, and we will respond as soon as possible.",
+      "phone": "+970 000 000",
+      "email": "info@telerad.com",
+      "address": "123 Health Street, Ramallah, Palestine",
+      "followUs": "Follow Us"
+    },
+    "footer": {
+      "title": {
+        "part1": "Your Partner",
+        "part2": "Remotely",
+        "part3": "In Medical",
+        "part4": "Radiology"
+      },
+      "contact": {
+        "phone": "+970 000 000",
+        "email": "info@telerad.com",
+        "address": "123 Health Street, Ramallah, Palestine"
+      },
+      "menu": {
+        "home": "Home",
+        "aboutUs": "About Us",
+        "ourVision": "Our Vision",
+        "ourMission": "Our Mission",
+        "ourTeam": "Our Team",
+        "contact": "Contact Us"
+      },
+      "footerText": "© {{year}} TeleRad. All rights reserved."
+    },
+    "servicesP": {
+      "title": "Services",
+      "data": {
+        "Teleradiology Reporting": {
+          "title": "Remote Radiology Reports",
+          "brief": "Accurate, professional, and reliable interpretation of medical images in a timely manner.",
+          "additionalInfo": "We guarantee fast response times to support timely clinical decision-making."
+        },
+        "Consultation Services": {
+          "title": "Consultation Services",
+          "brief": "Facilitating access to specialized and professional medical consultations from inside and outside Palestine, especially for difficult and sensitive cases.",
+          "additionalInfo": "Our expert team ensures high-quality medical opinions."
+        },
+        "Second Opinion": {
+          "title": "Second Opinion",
+          "brief": "The second opinion service that enhances the confidence of the service seeker in the medical diagnosis and treatment plan.",
+          "additionalInfo": "Get an additional perspective on your health concerns from our specialists."
+        }
+      }
+    },
+  
+  
+    "mission": {
+      "visionTitle": "OUR VISION",
+      "visionContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      "missionTitle": "OUR MISSION",
+      "missionContent": "Our mission content goes here...",
+      "valuesTitle": "OUR VALUES",
+      "valuesContent": "Our values content goes here..."
+    },
+    "how": {
+      "shareTitle": "Share Images",
+      "shareDescription": "Securely share medical images to our platform.",
+      "expertTitle": "Expert Analysis",
+      "expertDescription": "Our radiologists review and interpret the images.",
+      "receiveTitle": "Receive Report",
+      "receiveDescription": "Receive a detailed report and consultation, if needed, within the agreed timeframe.",
+      "consultButton": "Consult Us Today"
+    }
+  }

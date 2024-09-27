@@ -1,0 +1,56 @@
+.team-container {
+    background-color: #f2f2f2;
+    height: 100%;
+    margin: auto;
+    padding: 0 20px; /* Added padding for better layout */
+}
+
+.team {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20rem; /* Adds spacing between team members */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.team-p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 50%;
+    transform: translateX(-50%);
+    text-align: center; /* Centers text */
+}
+
+.team-pb {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%; /* Adjusted width to avoid translation issue */
+    text-align: center; /* Centers text */
+}
+
+.team-member {
+    flex: 0 1 300px; /* Fixed width for each team member */
+    max-width: 300px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Ensures the image stays circular */
+    object-fit: cover; /* Ensures proper image fitting */
+}
+
+@media (max-width: 768px) {
+    .team {
+        flex-direction: column; /* Stack team members vertically on small screens */
+        gap: 1.5rem; /* Smaller gap for smaller viewports */
+    }
+
+    .team-p, .team-pb {
+        width: 100%; /* Full width for text on smaller screens */
+        transform: none; /* Remove translation on small screens */
+    }
+}

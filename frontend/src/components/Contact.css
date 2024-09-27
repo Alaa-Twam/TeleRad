@@ -1,0 +1,128 @@
+.contact-container {
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+}
+  
+.contact-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 50px;
+}
+  
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h2 {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.contact-info p {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    max-width: 60%;
+}
+
+.contact-details {
+    background-color: #05cc98;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    height: 100%;
+}
+
+.contact-details .contact-info-details {
+    margin-bottom: 1rem;
+
+}
+
+.contact-details .social-icons {
+    margin-top: 0.5rem;
+}
+
+.rtl  .social-icons {
+    direction: ltr;
+}
+
+.contact-details .contact-info-details p {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+.contact-details .social-icons p {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.contact-details .social-icons a {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.contact-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    max-width: 500px;
+    z-index: 0;
+    margin: 30px; /* Minimum margin around the image */
+    padding: 20px; /* Padding around the image */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.contact-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1440px) {
+    .contact-image {
+        width: 50%;
+        max-width: 700px; /* Adjust max-width for larger screens */
+    }
+}
+
+@media (max-width: 1115px) {
+    .contact-image {
+        display: none;
+    }
+}
+
+/* Hide the image on lower viewports */
+@media (max-width: 768px) {
+    .contact-image {
+        display: none;
+    }
+
+    .contact-info {
+        padding: 0px;
+    }
+    
+    .social-icons {
+        align-self: center;
+        text-align: center;
+    }
+
+    .contact-info p {
+        max-width: 100%;
+    }
+}

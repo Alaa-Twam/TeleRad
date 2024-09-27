@@ -1,0 +1,141 @@
+.how-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 1rem; /* Add some padding for better spacing */
+  }
+  
+  .how-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width to fit your layout */
+    position: relative; /* Ensure container is positioned relative for absolute positioning inside */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  .how-column {
+    flex: 1;
+    text-align: center;
+    margin-top: 10rem; /* Top margin for each column */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centering contents horizontally */
+    margin-bottom: 2rem; /* Add margin between rows */
+  }
+  
+  .how-column.middle {
+    position: relative;
+    top: -100px; /* Move the middle column up by 100px */
+  }
+  
+  .how-image {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .how-image img {
+    width: 100%;
+    height: 100%;
+    display: block; /* Ensure the image does not have extra space below */
+    object-fit: cover;
+    object-position: 50%;
+  }
+  
+  .how-number {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+  }
+  
+  .how-title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .how-paragraph {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .how-button-container {
+    margin-top: calc(10rem - 100px); /* Adjust the margin to align with the shifted columns */
+    position: relative;
+    top: -100px; /* Move the button up by the same amount as the middle column */
+  }
+  
+  .how-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #05CC98;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  /* Media Queries for Responsive Design */
+  
+  /* Small screens (phones, less than 600px) */
+  @media (max-width: 600px) {
+    .how-container {
+      flex-direction: column; /* Stack columns vertically on small screens */
+    }
+
+    .how-column.middle {
+        position: relative;
+        top: 0px; /* Move the middle column up by 100px */
+      }
+      
+  
+    .how-column {
+      margin-top: 0rem; /* Adjust top margin for small screens */
+      margin-bottom: 1rem; /* Ensure margin between rows on small screens */
+    }
+  
+    .how-number {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  
+    .how-title {
+      font-size: 1.25rem; /* Adjust font size for smaller screens */
+    }
+  
+    .how-paragraph {
+      font-size: 0.875rem; /* Adjust font size for smaller screens */
+    }
+  
+    .how-button-container {
+      margin-top: 2rem; /* Adjust margin for button container on small screens */
+      top: 0; /* Reset top positioning for button container */
+    }
+  }
+  
+  /* Medium screens (tablets, 600px to 1024px) */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .how-image {
+      max-width: 150px; /* Adjust max-width for medium screens */
+    }
+  
+    .how-number {
+      font-size: 1.75rem; /* Adjust font size for medium screens */
+    }
+  
+    .how-title {
+      font-size: 1.375rem; /* Adjust font size for medium screens */
+    }
+  
+    .how-paragraph {
+      font-size: 0.875rem; /* Adjust font size for medium screens */
+    }
+  }
+  

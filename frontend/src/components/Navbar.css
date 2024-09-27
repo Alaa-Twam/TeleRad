@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+.arabic-font {
+    font-family: 'Alexandria', sans-serif;
+}
+
+/* Add extra space between nav links for Arabic */
+.space-between-ar button {
+    margin-left: 24px; /* Adjust the value as needed */
+  }
+  
+  .space-between-ar select {
+    margin-left: 24px; /* Adjust spacing for the language dropdown */
+  }
+  
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-transparent {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .navbar-scrolled {
+    background-color: white;
+    color: gray; /* Or the appropriate color for text when scrolled */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for scrolled state */
+  }
+  
+  .navbar-services {
+    background-color: white;
+    color: black;
+  }
+  
+  .navbar-white {
+    background-color: white;
+    color: black;
+  }
+  

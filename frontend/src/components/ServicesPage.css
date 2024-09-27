@@ -1,0 +1,227 @@
+.services-page {
+    display: flex;
+    flex-direction: row; /* Change to row to keep it on its own line */
+    min-height: 100vh; /* Minimum height to fill the viewport */
+    background-color: #f2f2f2;
+    padding-bottom: 50px; /* Add padding to prevent overlap with footer */
+    margin-bottom: 20px; /* Add margin below the section */
+    margin-top: 50px;
+}
+
+
+.services-title2 {
+    background-color: #f2f2f2;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.services-title2 h1 {
+    color: #05CC98; /* Green color matching the image */
+    font-size: 6rem; /* Increased font size */
+    font-weight: bold; /* Bold text */
+    margin: 0;
+    transform: rotate(-90deg); /* Rotate counterclockwise */
+    letter-spacing: 0.1em; /* Add spacing between letters */
+    text-align: center; /* Center the text */
+}
+
+.services-content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-header-section {
+    background-color: #05CC98;
+    padding: 2rem;
+    padding: 100px 100px 100px 100px;
+}
+
+.services-header {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.services-description {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.services-body-section {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    flex-grow: 1;
+    width: 100%; /* Ensure it takes the full width */
+}
+
+.services-tabs ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around; /* Distribute tabs evenly */
+    width: 100%; /* Ensure it takes the full width */
+}
+
+.services-tabs li {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    border-bottom: 2px solid #f2f2f2;
+    color: #000;
+    opacity: 0.5;
+    transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.services-tabs li.active {
+    border-bottom: 2px solid #05CC98;
+    opacity: 1;
+
+    font-weight: bolder;
+}
+
+.services-image-placeholder {
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-additional-info {
+    margin-top: 1rem;
+    color: #000;
+    width: 100%; /* Ensure it takes the full width */
+}
+
+.consult-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Space above the button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.consult-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Existing CSS */
+/*... (your existing styles remain unchanged) ...*/
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .services-title2 {
+        width: 20%; /* Adjust width for medium screens */
+        margin-top: 80px;
+    }
+
+    .services-content {
+        width: 80%; /* Adjust content width for medium screens */
+        
+    }
+
+    .services-header-section {
+        padding: 2rem; /* Reduce padding for medium screens */
+    }
+
+    .services-header {
+        font-size: 2.5rem; /* Slightly smaller font size */
+    }
+
+    .services-tabs ul {
+        justify-content: space-between; /* Adjust spacing for medium screens */
+    }
+
+    .services-tabs li {
+        padding: 0.75rem; /* Adjust padding for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .services-page {
+        flex-direction: column; /* Stack sections vertically on smaller screens */
+    }
+
+    .services-title2 {
+        width: 100%; /* Full width for smaller screens */
+        padding: 20px 0; /* Add padding */
+    }
+
+    .services-title2 h1 {
+        font-size: 4rem; /* Reduce font size for smaller screens */
+        transform: rotate(0deg); /* Remove rotation for readability */
+    }
+
+    .services-content {
+        width: 100%; /* Full width for smaller screens */
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .services-header-section {
+        text-align: center; /* Center align text */
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .services-header {
+        font-size: 2rem; /* Smaller font size for smaller screens */
+    }
+
+    .services-body-section {
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .services-tabs ul {
+        flex-wrap: wrap; /* Allow wrapping for smaller screens */
+        justify-content: center; /* Center tabs */
+    }
+
+    .services-tabs li {
+        flex: 1 1 100%; /* Full width for each tab */
+        margin-bottom: 10px; /* Add margin between tabs */
+    }
+
+    .services-image-placeholder {
+        margin-top: 1rem; /* Reduce margin */
+    }
+
+    .services-additional-info {
+        text-align: center; /* Center align text */
+        padding: 0 1rem; /* Reduce padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .services-title2 h1 {
+        font-size: 3rem; /* Further reduce font size for very small screens */
+    }
+
+    .services-header {
+        font-size: 1.5rem; /* Further reduce header size */
+    }
+
+    .services-description {
+        font-size: 1rem; /* Adjust description font size */
+    }
+
+    .services-tabs li {
+        padding: 0.5rem; /* Smaller padding for smaller tabs */
+        font-size: 0.875rem; /* Smaller font size for tabs */
+    }
+
+    .services-additional-info {
+        font-size: 0.875rem; /* Adjust info font size */
+    }
+}

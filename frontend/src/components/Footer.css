@@ -1,0 +1,151 @@
+.footer-container {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid #05CC98; /* Green top border stroke */
+}
+
+
+/* Other styles remain the same */
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.footer-logo-large {
+    width: 120px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.footer-title-large {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #05CC98;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    line-height: 2.5rem;
+}
+
+.rtl .footer-title-large {
+    text-align: right;
+}
+
+.footer-title-large span {
+    display: block;
+}
+
+.footer-contact {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.footer-icon {
+    margin-right: 0.5rem;
+    color: #05CC98;
+    padding-left: 10px;
+   
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    color: #333;
+}
+
+.footer-list li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-social svg {
+    font-size: 1.5rem;
+    color: #05CC98;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.footer-circle {
+    font-size: 1rem;
+    color: #05CC98;
+    margin-top: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+/* Responsive Styles for Lower Viewports */
+@media (max-width: 768px) {
+    .footer-social {
+        flex-direction: row; /* Stack social icons vertically */
+        gap: 0.5rem; /* Reduce gap for stacked icons */
+        padding: 20px 20px 20px 0px;
+    }
+    .footer-right {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .footer-list {
+        flex-direction: row; /* Display as row on smaller screens */
+        justify-content: center; /* Center items horizontally */
+    }
+
+    .footer-list li {
+        margin-right: 1rem; /* Add margin between items */
+    }
+
+    .footer-list li:last-child {
+        margin-right: 0; /* Remove margin for the last item */
+    }
+}
